@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:id="@+id/submit_toolbar"
+    app:contentInsetStart="0dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/gads_logo"
+            android:scaleType="centerInside"
+            android:layout_centerInParent="true"/>
+    </RelativeLayout>
+</androidx.appcompat.widget.Toolbar>
